@@ -1,0 +1,7 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BineetNaidu <bineet.s.naidu@gmail.com> (https://bineetnaidu-io.web.app)",
+  "license": "MIT"
+}

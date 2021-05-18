@@ -8,14 +8,7 @@ type Mutation {
   signup(email: String!, password: String!, name: String!): AuthPayload
   login(email: String!, password: String!): AuthPayload
 
-  # get All Posts
   post(url: String!, description: String!): Link!
-
-  # Update a link
-  updateLink(id: ID!, url: String, description: String): Link
-
-  # Delete a link
-  deleteLink(id: ID!): Link
 }
 
 type Link {
@@ -35,4 +28,8 @@ type User {
   name: String!
   email: String!
   links: [Link!]!
+}
+
+type Subscription {
+  newLink: Link
 }

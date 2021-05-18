@@ -1,7 +1,18 @@
 {
-  "name": "hackernews-node",
+  "name": "hackernews-api",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "BineetNaidu <bineet.s.naidu@gmail.com> (https://bineetnaidu-io.web.app)",
-  "license": "MIT"
+  "author": "BineetNaidu <bineet.s.naidu@gmail.com> (https://bineetnaidu.github.io)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "apollo-server": "^2.24.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
